@@ -38,8 +38,9 @@ class GridFieldConfig_BlockManager extends GridFieldConfig
                                 ->setHasEmptyDefault(true);
                         },
                 ),
+
                 'isPublishedIcon' => array('title' => _t('Block.IsPublishedField', 'Published'), 'field' => 'LiteralField'),
-                'UsageListAsString' => array('title' => _t('Block.UsageListAsString', 'Used on'), 'field' => 'ReadonlyField'),
+                'UsageListAsString' => array('title' => _t('Block.UsageListAsString', 'Used on'), 'field' => 'LiteralField'),
             );
 
             if ($aboveOrBelow) {
